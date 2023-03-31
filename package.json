@@ -1,0 +1,19 @@
+{
+  "name": "tw-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:w": "postcss ./static/css/base.css --output ./static/css/style.css --watch",
+    "tailwind:w": "tailwind -i ./static/css/base.css -o ./static/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  }
+}
