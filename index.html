@@ -265,14 +265,14 @@
                         <div>
                             <label class="sr-only" for="name">Full Name</label>
                             <input class="form__input" placeholder="Name" type="text"
-                                id="name" />
+                                id="name" name="name" />
                         </div>
     
                         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
                             <div>
                                 <label class="sr-only" for="email">Email</label>
                                 <input class="form__input" placeholder="Email address"
-                                    type="email" id="email" />
+                                    type="email" id="email" name="email" />
                             </div>
     
                             <div>
@@ -284,7 +284,7 @@
     
                         <div class="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
                             <div>
-                                <input class="peer sr-only" id="option1" type="radio" tabindex="-1" name="option" />
+                                <input class="peer sr-only" id="option1" type="radio" tabindex="-1" name="ordinary" />
     
                                 <label for="option1"
                                     class="form__option"
@@ -294,7 +294,7 @@
                             </div>
     
                             <div>
-                                <input class="peer sr-only" id="option2" type="radio" tabindex="-1" name="option" />
+                                <input class="peer sr-only" id="option2" type="radio" tabindex="-1" name="business" />
     
                                 <label for="option2"
                                     class="form__option"
@@ -304,7 +304,7 @@
                             </div>
     
                             <div>
-                                <input class="peer sr-only" id="option3" type="radio" tabindex="-1" name="option" />
+                                <input class="peer sr-only" id="option3" type="radio" tabindex="-1" name="tuition" />
     
                                 <label for="option3"
                                     class="form__option"
@@ -316,12 +316,12 @@
     
                         <div>
                             <label class="sr-only" for="amount">Amount</label>
-                            <input class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="How much do you need?" type="tel" id="amount" />
+                            <input class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="How much do you need?" type="tel" id="amount" name="amount" />
                         </div>
 
                         <div>
                             <label class="sr-only" for="collateral">Security</label>
-                            <input class="form__input" placeholder="Collateral support" type="tel" id="collateral">
+                            <input class="form__input" placeholder="Collateral support" type="tel" id="collateral" name="collateral" />
                         </div>
 
                         <div class="mt-4">
